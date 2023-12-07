@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="karate.AdministracionUsuariosRunner" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-01T17:20:11" hostname="PORTALES42610PH" time="1.676">
+  <properties/>
+  <testcase name="[5:38] Eliminar el usuario" classname="karate.AdministracionUsuariosRunner" time="1.676"/>
+  <system-out><![CDATA[12:20:10.290 [Test worker] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:20:11.703 [Test worker] DEBUG com.intuit.karate - request:
+1 > DELETE https://petstore.swagger.io/v2/user/hprez
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:20:12.238 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 523
+1 < 200
+1 < Date: Fri, 01 Dec 2023 17:20:12 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":200,"type":"unknown","message":"hprez"}
+
+---------------------------------------------------------
+feature: classpath:karate/AdministracionUsuarios.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 0.8008
+---------------------------------------------------------
+
+Karate version: 1.4.1
+======================================================
+elapsed:   3.65 | threads:    1 | thread time: 0.80 
+features:     1 | skipped:    0 | efficiency: 0.22
+scenarios:    1 | passed:     1 | failed: 0
+======================================================
+
+HTML report: (paste into browser to view) | Karate version: 1.4.1
+file:///C:/Users/mikhail.cobos/IdeaProjects/PetShopTest/build/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
